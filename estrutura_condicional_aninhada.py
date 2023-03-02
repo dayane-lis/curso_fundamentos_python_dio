@@ -7,7 +7,7 @@ cheque_especial = 450
 
 if conta_normal:
     if saldo >= saque:
-        print("Saque ralizado com sucesso!")
+        print("Saque realizado com sucesso!")
     elif saque <= (saldo + cheque_especial):
         print("Saque realizado com uso do cheque especial!")
     else:
